@@ -1,0 +1,21 @@
+a{text-decoration:none}
+.facebook.active{background-color:#3B5998 !important}
+.twitter.active{background-color:#6CADDE !important}
+.linkedin.active{background-color:#007bb6 !important}
+.pinterest.active{background-color:#f26798 !important}
+.instagram.active{background-color:#8a3ab9 !important}
+.active p{opacity:.7 !important;color:white}
+ social-button .button,.social-button .button:before,.social-button .button .fa{-webkit-transition:all 0.35s;transition:all 0.35s;-webkit-transition-timing-function:cubic-bezier(0.31,-0.105,0.43,1.59);transition-timing-function:cubic-bezier(0.31,-0.105,0.43,1.59)}
+.social-button .button .fa{-webkit-transform:scale(0.8);transform:scale(0.8)}
+.button.facebook{color:#808080;transition:color 1s}
+.button.facebook:hover{color:white}
+.button.twitter{color:#808080;transition:color 1s}
+.button.twitter:hover{color:white}
+.button.linkedin{color:#808080;transition:color 1s}
+.button.linkedin:hover{color:white}
+.button.pinterest{color:#808080;transition:color 1s}
+.button.pinterest:hover{color:white}
+.button.instagram{color:#808080;transition:color 1s}
+.button.instagram:hover{color:white}
+.button{display:flex;flex-wrap:wrap;padding:1em;width:auto;height:auto;text-align:center}
+.button .fa{font-size:2em;vertical-align:middle}

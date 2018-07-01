@@ -1,0 +1,468 @@
+section{width:100%}
+ body{width:100%;height:100%;box-sizing:border-box;border:0;margin:0;  }
+h1{font-family:"kozuka-gothic-pr6n",sans-serif}
+div{box-sizing:border-box}
+ #index_wrapper{width:100%;height:auto}
+#background_container{width:100%;height:auto;background-size:cover;background-repeat:no-repeat;background-position:center;background-attachment:fixed}
+#container_one_info_wrap{width:100%;display:flex;margin:auto;margin-top:130px;margin-bottom:500px;flex-direction:column}
+@media (min-width:700px){#container_one_info_wrap{margin-top:250px}
+}
+#container_one_h1{margin:auto;margin-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:400;font-size:28px;color:white;letter-spacing:17px;text-align:center}
+@media (min-width:700px){#container_one_h1{font-size:50px;text-align:left}
+}
+#container_one_h2{margin:auto;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:400;font-size:12px;color:white;letter-spacing:3;text-align:center}
+@media (min-width:700px){#container_one_h2{font-size:15px;text-align:left}
+}
+#container_one_hr{width:46%;height:1.5px;margin:auto;margin-bottom:20px;background-color:white;border:0}
+@media(min-width:700px){#background_container{background-image:url(../themes/curated-crowd/assets/backgrounds/cc_background_3.jpeg);min-height:100%}
+}
+#background_container_2{width:100%;height:auto;background-image:url(../themes/curated-crowd/assets/backgrounds/flipped_ring.jpeg);background-size:cover;background-repeat:no-repeat;background-position:unset;background-attachment:fixed}
+#background_container_4{width:100%;height:400px;background-color:#242424;background-size:cover;background-repeat:no-repeat;background-position:center;background-attachment:fixed}
+ #background_container_3{width:100%;height:auto;background-color:white;background-size:cover;background-repeat:no-repeat;background-position:center;background-attachment:fixed;display:flex;box-shadow:2px -4px 48px -8px rgba(0,0,0,0.75)}
+@media (min-width:700px){.background_con_3_inner{width:50%}
+}
+#background_container_3 > .background_con_3_inner:first-child{width:100%;display:flex;margin:auto}
+@media(min-width:700px){#background_container_3 > .background_con_3_inner:first-child{display:flex;margin:auto;width:50%}
+}
+#background_container_3 > .background_con_3_inner:last-child{display:flex;margin:auto;width:0;height:0}
+@media(min-width:700px){#background_container_3 > .background_con_3_inner:last-child{width:50%;height:auto}
+}
+#right_side_con3{display:none}
+@media(min-width:700px){#right_side_con3{width:100%;height:750px;object-fit:cover;object-position:50% 17%;display:block}
+}
+#agile_container_wrap{width:100%}
+#agile_container_head_wrap{width:40%;position:relative;top:100px;margin:auto}
+#agile_containter_h1{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:bolder;letter-spacing:6px;color:#fafafa;font-size:1em}
+h1{margin-top:0px}
+ .mobile-record-list{width:100%;height:auto;display:flex;flex-wrap:wrap}
+#campign_designer_link{font-weight:300}
+@media (min-width:700px){.mobile-record-list{display:none}
+}
+.mobile-record-text{text-decoration:none;list-style-type:none;padding-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300;color:black;font-size:0.9em;margin-top:10px;margin-left:5%}
+.mobile-record-item-container{width:100%;height:auto}
+.mobile-record-item{background-size:cover;width:90%;object-fit:cover;margin:auto;height:200px;opacity:1}
+.mobile-record-text > a{color:black;font-size:0.9em;font-weight:300}
+#home_project_list{width:100%;height:auto;padding-left:0;margin-bottom:0;display:flex;flex-direction:column}
+.home_project_list_item{text-decoration:none;list-style-type:none;padding-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:bold;font-size:1.5em;letter-spacing:3px}
+.home_project_list_item > a{text-decoration:none;color:black;transition:color 0.2s linear;font-size:0.8em}
+.home_project_list_item > a:last-child:hover{color:gray}
+.record-list{padding-left:0;width:100%;display:none}
+.home_project_list_h1{text-decoration:none;list-style-type:none;padding-bottom:5px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300;color:black;font-size:1.6em;letter-spacing:3px;width:100%;margin:auto;text-align:center}
+#background_container > .home_project_list_h1:last-child{margin-bottom:0}
+@media (min-width:700px){.home_project_list_h1{color:black;width:90%;margin-left:10%;margin-top:5%;text-align:left}
+}
+@media (min-width:700px){#home_project_list{width:100%;height:auto;margin:auto;padding-left:0;display:flex;flex-direction:column}
+}
+@media (min-width:700px){.record-list{padding-left:0;width:100%;margin-left:0;display:flex;flex-direction:column}
+}
+@media (min-width:700px){.home_project_list_h1{text-decoration:none;list-style-type:none;padding-bottom:5px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300;font-size:16px;letter-spacing:5px;width:55%;margin:auto;margin-bottom:36px}
+}
+@media (min-width:700px){.home_project_list_item{text-decoration:none;list-style-type:none;padding-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:bold;font-size:16px;letter-spacing:5px;width:55%;margin:auto}
+}
+@media (min-width:700px){.home_project_list_item > a{text-decoration:none;color:black}
+}
+@media (min-width:700px){.home_project_list_item > .home_project_list_by{font-size:0.6em}
+}
+.project_page_h2{font-weight:300}
+ #about_content_container{width:100%;height:auto;background-color:rgba(21,20 ,22,0.85);display:flex;position:relative;flex-direction:column;font-family:'Lato',sans-serif;font-style:normal;font-weight:300;color:#FFF9F4;justify-content:center;letter-spacing:0.38}
+#about_content_h1{font-family:'Lato',sans-serif;font-style:normal;font-weight:300;color:white;margin:auto;margin-bottom:10px;width:80%;top:10px;font-size:1em;margin-top:85px}
+.about_content_p{font-size:1em;width:80%;margin:auto;margin-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300}
+.about_content_p2{font-size:1em;width:70%;margin:auto;margin-bottom:10px;margin-top:10px;font-weight:300}
+.about_us_two_parts_wrap{width:50%;height:auto;display:flex;margin-top:25%;flex-direction:column}
+@media (min-width:700px){#about_content_container{width:660px;height:100%;background-color:rgba(21,20 ,22,0.7);display:flex;flex-wrap:wrap;position:relative;flex-direction:column;font-family:'Lato',sans-serif;font-style:normal;font-weight:300;color:#FFF9F4;justify-content:center;letter-spacing:0.38}
+}
+@media (min-width:700px){#about_content_h1{font-family:"kozuka-gothic-pr6n",sans-serif;position:relative;font-style:normal;font-weight:300;color:white;width:80%;font-size:1.4em;margin:auto;margin-bottom:30px;margin-top:10px}
+}
+@media (min-width:700px){.about_content_p{font-size:1em;width:80%;margin:auto;margin-top:10px;margin-bottom:0px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300}
+}
+@media (min-width:700px){.about_content_p2{font-size:1.3em;width:60%;margin:auto;margin-bottom:10px;margin-top:10px;font-weight:300}
+}
+#news_features_wrapper{width:100% ;background-color:#E8DDD1;display:flex;justify-content:center;display:-webkit-flex; -webkit-justify-content:space-around}
+.news_piece{background-color:#E8DDD1;position:relative;height:100px;width:20vw}
+ #product_navbar_ul{list-style:none;display:flex;-webkit-flex-flow:row;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;justify-content:flex-end;align-items:flex-end;color:white;background:rgba(21,20 ,22,.5);margin:auto;padding:0;border-color:rgba(21,20 ,22,.5);vertical-align:middle;width:100%;transition:opacity 2s ease-in;border-bottom-width:.5px;border-bottom-style:solid;transition:background 0.3s,border-bottom-color 0.3s,border-bottom-width 0.3s,border-bottom-style 0.3s }
+#hide_on_shrink{display:none}
+@media (min-width:700px){#hide_on_shrink{display:flex}
+}
+#navburger{display:flex}
+@media (min-width:700px){#navburger{display:none}
+}
+#product_navbar_ul:hover{background:rgba(255,255,255,0.8);color:black;border-bottom-color:#979797;border-bottom-width:.5px;border-bottom-style:solid}
+#product_navbar_ul .product_navbar_item:first-child{align-self:flex-start}
+.product_navbar_item{padding:1em;width:80px;height:40px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:100;cursor:pointer}
+.product_navbar_item > a{text-decoration:none;color:white;cursor:pointer}
+#product_navbar_ul:hover > .product_navbar_item > a{text-decoration:none;color:gray}
+#product_navbar_ul .product_navbar_logo{width:100px;height:60px;padding-left:1em}
+#product_navbar_ul li:first-child{margin-right:auto}
+#product_navbar_ul li:last-child{border-right:0;border-left:1px;border-bottom:0;border-top:0;border-style:solid;border-color:white}
+#product_navbar_ul:hover li:last-child{border-color:gray}
+ .hamburger-overlay{width:100%;height:100vh;display:none;position:absolute;z-index:50;background-color:rgba(12,12 ,12,1)}
+#product_page_container{background:#FFFEFE;height:auto}
+#product_page_main_content{position:relative;top:40px;height:auto;display:flex;flex-direction:row-reverse;flex-wrap:wrap}
+@media (min-width:700px){#product_page_main_content{position:relative;top:40px;height:auto;display:flex;flex-wrap:no-wrap;flex-direction:row}
+}
+.product_text_area{margin:auto;margin-top:20px;width:380PX;height:100px;font-family:'Hind Vadodara',sans-serif;letter-spacing:0.2;font-weight:300;resize:none;border-radius:3px;border-color:#979797}
+@media (min-width:700px){.product_text_area{margin:0.8em;margin-top:20px}
+}
+#product_mobile_heading{width:100%;display:block;}
+#resize_content_hide{display:none}
+@media (min-width:700px){#resize_content_hide{display:block}
+}
+@media (min-width:1024px){#resize_content_hide{margin-left:5%}
+}
+@media (min-width:700px){#product_mobile_heading{width:100%;display:none}
+}
+#product_left_content{width:100%;display:flex;justify-content:center;flex-wrap:wrap;margin:auto}
+@media (min-width:700px){#product_left_content{width:46%;margin-top:0;display:flex;justify-content:center;flex-wrap:wrap}
+}
+.product_wrap{display:inline-block;position:relative;border-style:solid;border-color:#979797;border-width:1px;width:100%;height:500px}
+@media (min-width:700px){.product_wrap{display:inline-block;position:relative;right:50px;border-style:solid;border-color:#979797;border-width:1px;width:500px;height:500px}
+}
+#main_product_image{width:320px;height:500px;margin-left:auto;margin-right:auto;position:relative;left:0px;border-width:0;border-style:solid;border-color:#979797;object-fit:cover}
+@media (min-width:900px){#main_product_image{width:400px;height:500px;margin-left:auto;margin-right:auto;position:relative;left:0px;object-fit:cover}
+}
+@media (min-width:1000px){#main_product_image{width:500px;height:500px;margin-left:auto;margin-right:auto;position:relative;left:0px;object-fit:cover}
+}
+#thumbnail_ul{display:flex;list-style-type:none;flex-wrap:wrap;justify-content:center;padding:0}
+#thumbnail_ul.thumbnails{padding:0;jusitfy-content:center}
+#product_preview_wrapper{width:100%;clear:left;display:flex;justify-content:center}
+.product_preview_img{margin-top:10px;width:100px;height:100px;border:0;border-style:solid;border-color:#979797;position:relative;object-fit:cover}
+@media (min-width:700px){#product_preview_wrapper{width:500px;clear:left;display:flex;justify-content:space-around}
+}
+@media (min-width:700px){.product_preview_img{margin-top:10px;width:150px;height:151px;border:0;border-style:solid;border-color:#979797;position:relative;object-fit:cover}
+}
+#product_right_content{width:100%;display:flex;flex-direction:column;font-family:"kozuka-gothic-pr6n",sans-serif}
+@media (min-width:700px){#product_right_content{width:50%;display:flex;flex-direction:column;font-family:"kozuka-gothic-pr6n",sans-serif}
+}
+.product_h1{position:relative;font-weight:300;font-size:20px;color:#2B2929;letter-spacing:3;margin-bottom:4px;font-family:"kozuka-gothic-pr6n",sans-serif}
+.product_amount{position:relative;font-weight:300;font-size:16px;color:#2B2929;letter-spacing:3;margin-bottom:0;font-family:"kozuka-gothic-pr6n",sans-serif}
+.product_amount_span{background-color:rgba(226,215,201,0.5)}
+.product_span{font-weight:lighter;font-size:16px;color:#2B2929;letter-spacing:3;margin-bottom:4px;font-family:"kozuka-gothic-pr6n",sans-serif}
+#product_right_h2_flex{display:flex;flex-direction:row;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:16px;color:#2B2929;letter-spacing:3}
+@media (min-width:700px){#product_right_h1_flex{display:flex;flex-direction:column;font-family:"kozuka-gothic-pr6n",sans-serif}
+}
+#product_h2_1{margin-top:0;position:relative;font-style:italic;font-weight:lighter;font-size:14px;color:#2B2929;letter-spacing:3;font-family:"kozuka-gothic-pr6n",sans-serif}
+.product_h2_2{margin-top:0;position:relative;left:4px;font-weight:lighter;font-size:14px;color:#2B2929;letter-spacing:3;font-family:"kozuka-gothic-pr6n",sans-serif}
+.product_h2_2 > a{color:#2B2929;font-size:14px;letter-spacing:3}
+#product_right_h2_flex_2{display:flex;flex-wrap:wrap;flex-direction:row;width:100%;position:relative;right:10px}
+@media (min-width:700px){#product_right_h2_flex_2{display:flex;flex-wrap:wrap;flex-direction:row;width:60%;position:relative;right:10px}
+}
+@media (min-width:1024px){#product_right_h2_flex_2{margin-left:5%;width:80%}
+}
+@media (min-width:1800px){#product_right_h2_flex_2{margin-left:5%;margin-bottom:10px;width:50%}
+}
+#product_right_h2_flex_2 > .product_right_select:first-child{margin-top:0.8em}
+.product_right_select{width:90%;height:50px;background:white;border-radius:3px;margin:auto;margin-bottom:0.8em;text-align:center;border-style:solid;border-color:#979797;border-width:1px;-webkit-appearance:none;-moz-appearance:none;text-align-last:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px}
+@media (min-width:700px){.product_right_select{width:180px;height:50px;background:white;border-radius:3px;margin:0.8em;text-align:center;border-style:solid;border-color:#979797;border-width:1px;-webkit-appearance:none;-moz-appearance:none;text-align-last:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px}
+}
+.product_right_select option{text-align:center}
+#product_buy_button{width:90%;height:50px;background:#787288;border-radius:3px;margin:auto;color:white;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px}
+@media (min-width:700px){#product_buy_button{width:180px;height:50px;background:#787288;border-radius:3px;margin:0.8em;color:white;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px}
+}
+#product_info_wrap{position:relative;top:10px;font-size:1.3em;display:flex;flex-direction:column}
+@media (min-width:1024px){#product_info_wrap{margin-left:5%}
+}
+ .product_info_dropdown{width:70%;padding:2px; font-family:'Hind Vadodara',sans-serif;letter-spacing:0.2;font-weight:300;margin:auto}
+@media (min-width:700px){.product_info_dropdown{width:50%;padding:2px;font-family:'Lato',sans-serif;letter-spacing:0.2;font-weight:300;margin:0}
+}
+.dropdown_cross{height:37px;float:right;position:relative;bottom:4px}
+.product_info_hidden{display:none;width:70%;font-weight:300;letter-spacing:0.2;margin:auto;font-size:0.8em;font-family:"kozuka-gothic-pr6n",sans-serif}
+@media (min-width:700px){.product_info_hidden{display:none;width:70%;font-weight:300;letter-spacing:0.2;font-family:"kozuka-gothic-pr6n",sans-serif;margin:0;font-size:0.8em}
+}
+#product_curators_section{width:100%;height:auto;display:flex;margin-top:100px;justify-content:center;flex-direction:column}
+#h1_curators_note_product{font:2.5em;letter-spacing:.2em;height:100px;font-family:"kozuka-gothic-pr6n",sans-serif;border-top:5px;border-bottom:0;border-left:0;border-right:0;border-style:solid;border-color:#B1A017;font-weight:lighter;position:relative;padding:1em;padding-bottom:0;margin-bottom:0;margin-left:auto;margin-right:auto}
+#curators_note_main_wrap{position:relative;margin-top:1em;margin-bottom:1em;margin-left:auto;margin-right:auto}
+#curators_note_main_wrap > p{margin-left:auto;margin-right:auto;margin-bottom:0;margin-top:auto;width:90%;font-size:1em;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:lighter}
+@media (min-width:400px){#curators_note_main_wrap > p{margin-left:auto;margin-right:auto;margin-bottom:0;margin-top:auto;width:30%;font-size:1.2em}
+}
+#curators_note_main_wrap > p:last-child{border-top:0;border-bottom:5px;border-left:0;border-right:0;border-style:solid;border-color:#B1A017;padding-bottom:1.5em}
+.fa.fa-plus{float:right;top:4px;position:relative;height:50px}
+#svg_cross{float:right;bottom:10px;position:relative;height:40px}
+#curators_note_other_products_wrap{display:flex;justify-content:center;flex-direction:column}
+#curators_note_h1{margin-left:auto;margin-right:auto;margin-top:20px;letter-spacing:.2em}
+#curators_note_thumbnail_wrap{display:flex;flex-direction:column;margin:auto;justify-content:center;align-items:center}
+@media (min-width:400px){#curators_note_thumbnail_wrap{flex-direction:row;flex-flow:wrap}
+}
+.curators_note_img{height:200px;width:200px;border:1px;border-style:solid;border-color:#979797;object-fit:cover;margin:1em}
+.product_navbar_img{width:100%;height:71px;margin:0;padding:0;border:0}
+#navbar_user_svg{fill:grey}
+#basket_svg{height:71px;fill:grey}
+ #designer_login_background{width:100%;background-image:url("../themes/curated-crowd/assets/backgrounds/designer_background.jpg");background-position:contain;background-repeat:no-repeat;display:flex;height:100%;flex-direction:column}
+@media (min-width:1000px){#designer_login_background{width:100%;background-image:url("../themes/curated-crowd/assets/backgrounds/designer_background.jpg");background-size:cover;background-repeat:no-repeat;display:flex;height:100%}
+}
+#designer_login_box{background-color:rgba(12,12 ,12,0.78);width:100%;height:80%;margin:auto;color:white;display:flex;flex-direction:column;justify-content:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:lighter;margin-bottom:10px}
+@media (min-width:700px){#designer_login_box{background-color:rgba(12,12 ,12,0.78);width:700px;height:400px;margin:auto;color:white;display:flex;flex-direction:column;justify-content:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:lighter;margin-bottom:10px}
+}
+.designer_box_content{margin:auto;width:100%;text-align:center;font-weight:300;letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;color:#E2D7C9}
+.designer_box_content_p{margin:auto;width:80%;margin-top:0;padding:1em;text-align:center;font-size:0.8em;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:200;letter-spacing:4.3;color:#FFF9F3;padding-bottom:1em}
+@media (min-width:700px){.designer_box_content_p{margin:auto;width:55%;margin-top:0;padding:1em;text-align:center;font-size:1em;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:200;letter-spacing:4.3;color:#FFF9F3;padding-bottom:1em}
+}
+#designer_box_project_go{width:180px;height:50px;background:#787288;color:white;font-family:'Roboto',sans-serif;font-weight:300;letter-spacing:4.3;border-color:white;border-width:3px;border-style:solid}
+.reg_close_img{width:150px;height:100px;margin-top:20px;cursor:pointer;opacity:0.5}
+.reg_close_img:hover{opacity:1}
+button{cursor:pointer}
+#designer_register_wrap{display:none;width:100%;height:100%;position:absolute;background-color:rgba(21,20 ,22,1);color:white;flex-direction:column;justify-content:center;font-family:'Roboto',sans-serif;letter-spacing:4;font-size:0.8em}
+@media (min-width:700px){#designer_register_wrap{width:56%}
+}
+#no_acc_cont{width:100%}
+.col-md-6{margin:auto}
+.form_half > .form-control{width:100%}
+.form_half > form > .form-group > .form-control{width:100%}
+.profile_form > .form-control{width:100%}
+#userSigninLogin{width:100%}
+#userSigninPassword{width:100%}
+.form-control{width:700px;background:rgba(255,255,255,0.4);border-color:grey;border-width:2px;border-radius:5px;border-style:solid;height:50px;margin-top:10px;margin-bottom:10px;padding-left:1em;color:white}
+ .reg_h1{color:#E2D7C9}
+.reg_form{display:flex;flex-direction:column;justify-content:center}
+.reg_label{}
+.form-group{display:flex;flex-direction:column;padding:.5em}
+#reg_button{margin:auto;margin-top:5px;width:160px;height:50px;font-family:'Roboto',sans-serif;letter-spacing:4}
+.account_have_wrap{margin:auto;margin-top:0;font-family:'Roboto',sans-serif;letter-spacing:4;text-align:center;font-size:0.5em;display:flex;flex-direction:column}
+.acc_have_cont{font-weight:300;margin-left:auto;margin-right:auto}
+.btn.btn-default{width:180px;height:50px;background:#787288;color:white;margin:auto;margin-left:37%;font-family:'Roboto',sans-serif;font-weight:300;letter-spacing:4.3;border-color:white;border-width:3px;border-style:solid}
+.account_have_wrap > .acc_have_cont:last-child{border-bottom:5px;border-bottom-style:solid;border-bottom-color:#B1A017;padding-bottom:.2em}
+#no_acc_cont{margin:auto}
+#login_box_wrap{display:none;flex-direction:column}
+#acc_have_sign_in:hover{cursor:pointer}
+.login_box_heading{font-weight:300;letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;color:#E2D7C9;margin:auto}
+ .designer_create_wrapper{display:flex;width:100%;height:auto;overflow:hidden}
+.designer_create{width:50%;height:auto;display:flex;flex-direction:column;color:#E2D7C9}
+.designer_create_h1{letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;width:75%;margin:auto;margin-top:90px;margin-bottom:10px;font-weight:300;text-align:left}
+.designer_create_wrapper > .designer_create:first-child{background-color:rgba(21,20 ,22,1);margin:auto;margin-bottom:0;margin-top:0;text-align:center;height:auto;min-height:100%}
+.designer_create_p1{letter-spacing:2;font-family:"kozuka-gothic-pr6n",sans-serif;width:75%;font-size:1.5em;font-weight:100;margin:auto;margin-top:10px;margin-bottom:10px;text-align:left}
+.designer_create_wrapper > .designer_create:last-child{background-image:url(../themes/curated-crowd/assets/backgrounds/designer_replace3.png);background-size:cover;background-repeat:no-repeat;background-position:50% 68%;height:auto;overflow:hidden}
+.designer_panel_wrap{display:flex;width:80%;height:auto;margin:auto;margin-top:10px;margin-bottom:10px;flex-wrap:wrap}
+.designer_panel_wrap > .designer_create_panel:nth-child(2){background-color:rgba( 191,252,200,0.7)}
+.designer_panel_wrap > .designer_create_panel:nth-child(3){background-color:rgba( 181,185,255,0.7)}
+.designer_panel_wrap > .designer_create_panel:nth-child(4){background-color:rgba( 255,204,249,0.7)}
+.designer_panel_wrap > .designer_create_panel:nth-child(5){background-color:rgba( 133,227,255,0.7)}
+.designer_panel_wrap > .designer_create_panel:nth-child(6){background-color:rgba( 232,135,111,0.7)}
+.designer_create_panel{width:200px;height:200px;background-color:rgba(187,227,219,0.7);border-radius:100px;display:flex;margin:1em;flex-direction:column;justify-content:center;cursor:pointer;border-width:1px;border-style:solid;border-color:#E2D7C9}
+.designer_panel_h1{margin-top:25px;letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;color:rgba(21,20 ,22,1);transition:color 0.2s linear;font-weight:300;font-size:1.5em;margin-bottom:0}
+.design_create_h2{letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;color:rgba(21,20 ,22,1);transition:color 0.2s linear;font-weight:300;font-size:1.5em;width:75%;text-align:left;margin:auto;margin-bottom:1px;margin-top:30px}
+.designer_panel_h1:hover{color:#E2D7C9}
+.designer_panel_img{width:100px;height:100px;margin:auto;padding:0;border:0}
+.project_submit_button{width:200px;height:50px;background:#787288;border-radius:3px;margin:auto;margin-top:30px;margin-bottom:20px;color:white;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px}
+.right_side_form{display:none;width:100%;min-height:-webkit-fill-available;background-color:#89A5A1;font-family:"kozuka-gothic-pr6n",sans-serif;color:rgba(21,20 ,22,1);font-weight:100;flex-wrap:wrap}
+.right_side_form > .designer_create_p1{margin-top:10px;margin-bottom:0;font-weight:300}
+.designer_create:last-child >.right_side_form:nth-child(2){background-color:#8CB794;height:auto;min-height:-webkit-fill-available}
+.designer_create:last-child >.right_side_form:nth-child(3){background-color:#8488BB;height:auto;min-height:-webkit-fill-available}
+.designer_create:last-child >.right_side_form:nth-child(4){background-color:#B995B6 ;height:auto;min-height:-webkit-fill-available}
+.designer_create:last-child >.right_side_form:nth-child(5){background-color:#62A5BA;overflow:initial;height:auto;min-height:-webkit-fill-available}
+.designer_create:last-child >.right_side_form:nth-child(6){background-color:#EE6140;overflow:initial;height:auto;min-height:-webkit-fill-available}
+.designer_form_input{background:transparent;border-color:rgba(21,20,22,1);border-width:1px;border-style:solid;height:50px;width:100%;padding-left:1em;color:rgba(21,20,22,1)}
+.designer_form_text_box{height:300px;background:transparent;border-color:rgba(21,20,22,1);border-width:1px;border-style:solid}
+.form_inner_wrap{display:flex;padding:5px;width:100%}
+.deisgner_bulb{width:50px;height:40px;background-size:contain;background-repeat:no-repeat}
+.designer_form_iden{letter-spacing:4.3;font-family:"kozuka-gothic-pr6n",sans-serif;color:rgba(21,20 ,22,1);font-size:1.2em;margin-top:20px;margin-bottom:20px}
+.create_form{display:flex;flex-direction:column;flex-wrap:nowrap;width:75%;margin:auto;margin-top:15px}
+.product_form{display:flex;flex-wrap:wrap;height:auto}
+.form_half{width:75%;height:auto;display:flex;flex-direction:column;margin:auto}
+.form_photo_upload_wrap{width:100%;display:flex;flex-wrap:wrap;height:auto;margin-top:50px}
+.image_input{width:0.1px;height:0.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
+.photo_upload_wrap{width:100%;margin-top:20px;margin-bottom:10px;height:auto;background-color:#FFF9F4;border-color:#E2F0ED;border-width:10px;border-style:solid;font-family:"kozuka-gothic-pr6n",sans-serif;color:rgba(21,20 ,22,1);font-size:1em;display:flex;flex-direction:column;align-content:center}
+.photo_upload_content{margin:auto;font-weight:200;text-align:center}
+.photo_upload_label{width:50%;height:50px;line-height:50px;background:white;border-radius:3px;margin:auto;margin-bottom:10px;border-style:solid;border-color:#979797;border-width:1px;-webkit-appearance:none;-moz-appearance:none;text-align-last:center;font-family:"kozuka-gothic-pr6n",sans-serif;font-size:0.8em;font-weight:100;letter-spacing:1px;vertical-align:middle}
+.product_type{font-family:'Roboto',sans-serif;font-weight:300}
+ .project_page_wrapper{width:100%;margin:0;padding:0}
+.project_page_sub_wrapper{width:100%;margin:0;padding:0;display:flex;background-repeat:no-repeat;background-size:cover}
+@media (min-width:700px){.project_page_sub_wrapper{width:100%;margin:0;padding:0;display:flex;background-image:none !important}
+}
+@media (min-width:700px){.project_page_sub_wrapper > .project_page_container:first-child{width:70%;display:flex;flex-direction:column}
+}
+.project_page_sub_wrapper > .project_page_container:first-child{width:100%;display:flex;flex-direction:column;background-color:rgba(255,255,255,0.9)}
+.project_page_sub_wrapper > .project_page_container:last-child{width:30%;min-height:100%;height:auto;background-size:cover;background-repeat:no-repeat;background-position:center;display:none}
+@media (min-width:700px){.project_page_sub_wrapper > .project_page_container:last-child{width:30%;min-height:100%;height:auto;background-size:cover;background-repeat:no-repeat;background-position:center;display:block}
+}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(1){width:80%;margin-left:3%;margin-top:0.5em;margin-bottom:0;color:#4A4A4A;font-family:'Lato',sans-serif;font-weight:300;font-size:3em}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(2){width:80%;margin-left:3%;margin-top:0;color:#BDB9B9;font-family:'Lato',sans-serif;font-weight:300}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(3){width:80%;margin-left:3%;margin-top:0.5em;margin-bottom:0;color:#4A4A4A;font-family:'Lato',sans-serif;font-weight:300;font-size:1.4em}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(4){width:90%;margin-left:2%;display:flex;font-family:'Lato',sans-serif;font-weight:300;color:#4A4A4A;font-size:1em;flex-direction:column}
+@media(min-width:700px){.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(4){flex-direction:row}
+}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(4) > p{padding:0.5em}
+@media (min-width:700px){.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(5){width:100%;margin-left:3%;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:none}
+}
+.exclusive_pieces{font-family:'Lato',sans-serif;font-weight:300;color:#4A4A4A;font-size:1.4em}
+.timer_h2{font-size:1em;font-family:'Lato',sans-serif;font-weight:200;height:15px}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(6){width:100%;margin:auto;justify-content:center;display:flex;flex-direction:row;flex-wrap:wrap}
+.project_page_sub_wrapper > .project_page_container:first-child > .project_page_content:nth-child(5){width:80%;margin-left:3%;margin-top:0.5em;margin-bottom:0;color:#4A4A4A;font-family:'Lato',sans-serif;font-weight:300;font-size:1em}
+.project_page_grid_item{width:284px;height:auto;min-height:500px;padding:1em;margin:1em;color:black}
+@media (min-width:2000px){.project_page_grid_item{width:400px;height:auto;min-height:600px}
+}
+.project_item_grid_rrp{font-size:0.8em;color:gray;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;margin-bottom:4px}
+.project_grid_item_text{width:100%;height:auto;;background-color:transparent;color:black;font-family:"kozuka-gothic-pr6n",sans-serif;display:flex}
+.project_grid_text_cont{min-height:100px;margin-top:10px}
+.project_grid_text_cont_designers{height:auto;margin:auto}
+ .project_h1_item{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:900;color:black;font-size:14px;margin:0;padding-top:5px;letter-spacing:3px;padding-bottom:5px}
+.project_item_grid_product_name{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-style:normal;font-size:14px;letter-spacing:2px;margin:0}
+.project_item_grid_designer_name{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:600;font-style:normal;font-size:14px;letter-spacing:1px;margin:0}
+.project_item_grid_product_project_name{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:600;background-color:rgba(226,240,237,0.5);font-style:normal;font-size:14px;letter-spacing:1px;margin:0}
+.project_item_grid_price{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-style:normal;font-size:14px;letter-spacing:1px}
+#project_grid_buy_button{background-image:url(../themes/curated-crowd/assets/015__circle_plus.svg);width:50px;height:50px;border:none;margin:auto;margin-top:50%;background-repeat:no-repeat;background-size:cover;background-color:transparent;outline:none}
+.project_page_grid_item_image{width:250px;height:339px;background-repeat:no-repeat;background-size:contain;background-position:center}
+@media (min-width:2000px){.project_page_grid_item_image{width:100%;height:550px;background-repeat:no-repeat;background-size:contain;background-position:center}
+}
+.project_page_grid_designer_image{width:250px;height:339px;background-repeat:no-repeat;background-size:cover;background-position:center}
+@media (min-width:2000px){.project_page_grid_designer_image{width:100%;height:550px;background-repeat:no-repeat;background-size:cover;background-position:center}
+}
+.is-in-project{border-color:black}
+ .blog_list_wrap{width:100%;height:auto;margin:auto}
+.info{margin-bottom:0}
+.blog_list_content_wrap{background-color:#FFF9F3;width:100%;height:auto;min-height:100%}
+.blog_content{width:90%;margin:auto;height:auto;display:flex;flex-wrap:wrap}
+.blog_content > p > a > img{width:100%;object-fit:cover}
+.blog_link{color:#988a81}
+@media (min-width:700px){.blog_content{width:65%}
+}
+.blog_post_wrapper{width:100%;height:auto;margin:0;background-color:#FFF9F4}
+#blog_grid{justify-content:flex-start}
+.blog_content > p{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;width:100%;line-height:1.3}
+.blog_content > p > img{width:100%;object-fit:cover}
+.blog_content > hr{height:1px;border:0;color:#333;background-color:#333;width:100%}
+.blog_main_image{width:800px}
+ .footer_wrap{width:100%;height:200px;background-color:#1f1f1f;display:flex}
+.footer_h2{font-size:16px}
+.footer_wrap > .footer_content{display:flex;width:100%;height:auto;margin:auto;flex-wrap:wrap;justify-content:center;font-size:.5em;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:200;letter-spacing:0.7;color:#808080 }
+.footer_media_row{display:flex;width:100%;margin-top:5px;justify-content:center}
+@media (min-width:700px){.footer_wrap > .footer_content{display:flex;width:100%;height:auto;margin:auto;justify-content:center;font-size:.8em;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:200;letter-spacing:0.7;color:#808080 }
+}
+.footer_content > a{color:#808080 ;transition:color 1s}
+.footer_content > a:hover{color:white }
+ .sort-form-wrap{display:flex;flex-wrap:wrap;justify-content:center}
+.data_option{cursor:pointer;font-size:14px;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300}
+.data_option2{cursor:pointer;font-size:14px;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300}
+.data_clicked{color:gray;outline:none}
+.filter_button{margin:auto;background:transparent;font-size:1em;font-family:'Lato',sans-serif;font-weight:300;margin-top:10px;border-style:solid;border-color:#979797;border-width:1px}
+.shop_wrap{width:100%;height:auto}
+.shop_content{width:100%;display:flex;flex-wrap:wrap;margin:auto;justify-content:center}
+.shop_line{height:1px;border:0;color:#333;background-color:#333;width:80%}
+.product_line{height:1px;color:#333;width:70%}
+@media (min-width:700px){.product_line{width:50%;margin-left:0}
+}
+.shop_head{font-family:questa,serif;font-style:normal;font-weight:300;margin-top:10px;margin-bottom:0px}
+.shop_sub_head{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;color:#4A4A4A;font-size:16px;text-align:center;letter-spacing:2px}
+ .designer_profile_wrap{width:100%;display:flex;flex-wrap:wrap}
+.designer_profile_content_cont{width:100%;display:flex;background-repeat:no-repeat;background-size:cover;opacity:1}
+@media (min-width:700px){.designer_profile_wrap > .designer_profile_content_cont:first-child{width:40%;height:auto;justify-content:center;background-repeat:no-repeat;background-size:cover;background-color:rgba(255,255,255,0.1)}
+}
+@media (min-width:700px){.designer_profile_wrap > .designer_profile_content_cont:last-child{width:60%;height:auto}
+}
+.designer_profile_content{width:540px;height:auto;background-color:white;border-color:#E2D7C9;border-style:solid;border-width:8px}
+.designer_name{margin-top:30px;margin-bottom:0;font-family:questa,serif;font-style:normal;font-weight:300;margin-left:auto;margin-right:auto;width:80%}
+.designer_est{margin-left:auto;margin-right:auto;width:80%}
+.designer_school{font-style:italic;margin-top:0;margin-left:auto;margin-right:auto;width:80%}
+.designer_about_me{font-family:'Lato',sans-serif;font-weight:300;color:black;width:80%;margin:auto;height:100%}
+.designer_profile_picture{width:200px;height:200px;border-radius:100px;margin:auto;margin-top:20px;object-fit:cover}
+@media(min-width:700px){.designer_profile_picture{width:300px;height:300px;border-radius:150px;margin:auto;object-fit:cover}
+}
+.designer_profile_content_right{width:100%;height:auto;display:flex;flex-wrap:wrap;margin-top:30px}
+@media (min-width:700px){.designer_profile_content_right{width:100%;height:auto;display:flex;flex-wrap:wrap;margin-top:60px}
+}
+.designer_profile_right_h_wrap{width:100%;height:200px;display:flex;flex-direction:column-reverse;justify-content:center}
+.designer_explore_name_wrap{display:flex;width:95%;margin-bottom:70px;margin-left:2.5%;margin-right:2.5%;flex-wrap:nowrap}
+@media (min-width:700px){.designer_explore_name_wrap{display:flex;width:auto;margin:auto;justify-content:center;flex-direction:column}
+}
+@media (min-width:700px){.designer_profile_right_h_wrap{width:100%;height:auto;display:flex;margin-bottom:1em;flex-direction:row;justify-content:center}
+}
+.designer_profile_right_h1_1{font-family:'Lato',sans-serif;font-weight:300;margin-right:5px;margin-top:10px}
+.designer_profile_about{width:100%;height:800px;margin-top:50px;display:flex;background-repeat:no-repeat;background-size:cover;background-position:100% 40%}
+@media (min-width:700px){.designer_profile_about{margin-top:0}
+}
+.designer_profile_right_h1_2{font-family:questa,serif;font-style:normal;font-weight:300;color:#4A4A4A}
+.deisgner_profile_buy_wraps{width:100%;height:auto}
+.designer_buy_wrap_container{width:100%;display:flex;justify-content:center;margin-top:50px}
+@media(min-width:700px){.designer_buy_wrap_container{width:100%;display:flex;justify-content:center;margin-top:auto;margin-top:50px}
+}
+.designer_profile_item_grid{display:flex;flex-wrap:wrap;justify-content:center}
+@media (min-width:700px){.designer_profile_item_grid{display:flex;flex-wrap:wrap;justify-content:center;margin-top:50px}
+}
+.designer_no_campaigns{width:340px;height:150px;margin:auto;margin-top:30px;padding-top:40px;padding-bottom:39px;text-align:center;color:#FFF9F4;background-color:#4A4A4A ;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:16px}
+.designer_no_campaigns > span{width:100%;margin:auto;font-weight:lighter}
+.designer_no_campaigns > span:first-child{font-weight:bold}
+.about_designer_row{display:flex;flex-wrap:wrap;margin-bottom:0}
+ .content_row{width:100%;height:auto;display:flex}
+.content_wrap{width:100%;height:auto;margin:auto;background-color:white;border-left-width:5px;border-right-width:5px;border-top-width:5px;border-bottom-width:0;border-style:solid;border-color:#E2D7C9;box-shadow:-1px 14px 38px 0px rgba(0,0,0,0.75);display:flex;flex-wrap:wrap}
+@media(min-width:700px){.content_wrap{width:80%}
+}
+.content_grid{display:flex;flex-wrap:wrap;width:90%;height:auto;min-height:100%;margin-left:5%;margin-right:5%;justify-content:space-between}
+.content_h1{margin:auto;font-family:questa,serif;font-style:normal;font-weight:300;margin-top:30px}
+.faq_q{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:500;font-size:16px}
+.faq_a{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:14px}
+ .about_us_wrapper{width:100%;height:auto;margin:auto;background-image:url("../themes/curated-crowd/assets/backgrounds/string.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:fixed}
+.about_us_content_grid_box_t1{min-width:100%;width:100%;height:auto;min-height:70%;margin:0;background-color:#1f1f1f;color:white;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center}
+ .about_us_content_grid_box_t1:nth-of-type(1){order:1}
+.about_us_content_grid_box_t1:nth-of-type(5){order:5}
+.about_us_content_grid_box_t1:nth-of-type(9){order:9}
+.about_us_content_grid_box_t2:nth-of-type(2){order:2}
+.about_us_content_grid_box_t2:nth-of-type(3){order:4}
+.about_us_content_grid_box_t2:nth-of-type(6){order:6}
+.about_us_content_grid_box_t2:nth-of-type(10){order:10}
+.about_us_content_grid_box_t2:nth-of-type(7){order:8}
+.about_us_content_grid_box_t2:nth-of-type(11){order:12}
+.about_us_content_grid_box_t3:nth-of-type(4){order:3}
+.about_us_content_grid_box_t3:nth-of-type(8){order:7}
+.about_us_content_grid_box_t3:nth-of-type(12){order:11}
+@media(min-width:700px){.about_us_content_grid_box_t1:nth-of-type(1){order:1}
+.about_us_content_grid_box_t1:nth-of-type(5){order:5}
+.about_us_content_grid_box_t1:nth-of-type(9){order:9}
+.about_us_content_grid_box_t2:nth-of-type(2){order:2}
+.about_us_content_grid_box_t2:nth-of-type(3){order:3}
+.about_us_content_grid_box_t2:nth-of-type(6){order:6}
+.about_us_content_grid_box_t2:nth-of-type(10){order:10}
+.about_us_content_grid_box_t2:nth-of-type(7){order:7}
+.about_us_content_grid_box_t2:nth-of-type(11){order:11}
+.about_us_content_grid_box_t3:nth-of-type(4){order:4}
+.about_us_content_grid_box_t3:nth-of-type(8){order:8}
+.about_us_content_grid_box_t3:nth-of-type(12){order:12}
+}
+ @media(min-width:700px){.about_us_content_grid_box_t1{min-width:48%;width:48%;height:auto;min-height:70%;margin:1%;margin-left:1%;margin-right:1%;background-color:#1f1f1f;color:white;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center}
+}
+.about_us_content_grid_box_t2{min-width:100%;max-width:100%;height:auto;min-height:70%;margin:0;background-repeat:no-repeat;background-size:cover}
+@media(min-width:700px){.about_us_content_grid_box_t2{min-width:48%;max-width:48%;height:auto;min-height:70%;margin:1%;margin-left:1%;margin-right:1%}
+}
+.about_us_content_grid_box_t3{min-width:100%;max-width:100%;height:auto;min-height:60%;margin:0;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center}
+@media(min-width:700px){.about_us_content_grid_box_t3{min-width:48%;max-width:48%;height:auto;min-height:60%;margin:1%;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center}
+}
+.about_us_t3_p{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:12px;width:80%;margin:auto;margin-top:0}
+.about_us_content_wrap{width:100%;height:auto;margin:auto;background-color:white; box-shadow:-1px 14px 38px 0px rgba(0,0,0,0.75);display:flex;flex-wrap:wrap}
+.about_us_grid_wrapper{width:100%;height:auto;margin:auto;background-color:white;display:flex;flex-wrap:wrap}
+.about_line{height:2px;border:0;color:#333;background-color:#333;width:40%}
+.about_us_advisor_text{min-height:200px;height:auto;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:14px;width:60%;margin:0;margin-left:auto;margin-right:auto;text-align:center;color:gray}
+@media (min-width:770px){.about_us_advisor_text{min-height:500px}
+}
+@media (min-width:1000px){.about_us_advisor_text{min-height:350px}
+}
+.about_us_grid_text{height:auto;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:16px;margin:auto;width:100%;margin-left:30%;margin-right:30%}
+@media(min-width:700px){.about_us_grid_text{height:auto;min-height:150px}
+}
+.about_us_grid_text_two{height:auto;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:16px;margin:auto;width:50%}
+.about_us_grid_text_t3{height:auto;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:300;font-size:16px;margin:auto;width:100%;margin-left:30%;margin-right:30%;margin-bottom:50px}
+.about_us_content_row{width:100%;height:auto;display:flex}
+.about_us_content_row_founder{width:100%;height:auto;display:flex;justify-content:center;flex-direction:row;flex-wrap:wrap;margin:auto;margin-top:200px;margin-bottom:200px}
+.about_us_founder_content{width:66%;height:auto;display:flex;flex-direction:column;margin-left:3%;margin-top:40px;margin-bottom:15px}
+.about_us_h1{margin:auto;width:auto;font-family:questa,serif;font-style:normal;font-weight:300;margin-top:132px;margin-bottom:50px;height:40px;border:0;border-bottom:2px;border-style:solid;border-color:white}
+.about_us_h2{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:bold;font-size:16px;width:40%;margin:0;margin-left:auto;margin-right:auto;margin-bottom:5px;text-align:left}
+.about_us_h2_t3{font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:bold;font-size:16px;width:40%;margin:0;margin-top:100px;margin-left:auto;margin-right:auto;margin-bottom:10px;text-align:left}
+.about_us_p{font-family:'Lato',sans-serif;width:50%}
+.about_us_founder_p{font-family:"kozuka-gothic-pr6n",sans-serif;width:100%;font-size:16px;margin:auto;margin-top:0}
+.about_us_founder_name{font-size:16px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:bold;margin:0}
+.about_us_founder_role{font-size:16px;font-family:"kozuka-gothic-pr6n",sans-serif;font-weight:200;font-style:normal;margin:0;margin-top:3px;margin-bottom:3px}
+.about_us_picture_founder{width:200px;height:200px;border-radius:100px;background-repeat:no-repeat;background-size:cover}
+.about_us_picture{width:200px;height:200px;border-radius:100px;border-style:solid;border-color:white;border-width:3px;background-repeat:no-repeat;background-size:cover;margin:auto;margin-top:10px;margin-bottom:10px}
+.about_us_content_grid{display:flex;flex-wrap:wrap;width:100%;height:auto;justify-content:space-between;background-color:#1f1f1f;border:0;border-bottom-width:20px;border-bottom-style:solid;border-bottom-color:gray}
+.about_us_advisor_grid{display:flex;flex-wrap:wrap;width:100%;flex-direction:column;height:auto;padding:1em;justify-content:center;background-color:#1f1f1f;color:white}
+@media(min-width:770px){.about_us_advisor_grid{flex-direction:column;min-height:550px;width:30%}
+}
+.about_us_advisor_name{margin:auto;margin-top:10px;margin-bottom:0;font-size:16px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:bold}
+.about_us_advisor_role{font-size:14px;margin:auto;margin-top:5px;margin-bottom:10px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300;color:gray}
+.about_us_advisor_grid_how_works{display:flex;flex-wrap:wrap;width:100%;margin:auto;margin-top:0;margin-bottom:200px;height:auto}
+.about_us_advisor_grid_how_works_t3{display:flex;flex-wrap:wrap;width:100%;margin:auto;margin-top:0;margin-bottom:50px;height:auto}
+ .standard_page_wrap{width:100%;height:auto;min-height:100%}
+#timer{margin:auto;margin-left:10px}
+.contact_form_wrap{width:50%;margin:auto;margin-top:100px;margin-bottom:100px;display:flex;flex-direction:column}
+.contact_us_h2{font-size:18px;margin:auto;margin-bottom:150px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300}
+.contact_form{display:flex;flex-direction:column;width:250px;margin:auto}
+.contact_form_control{width:250px;height:30px;font-size:14px;background-color:transparent;border:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:black;color:black;padding:0 0 8px 0;margin-bottom:20px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300;-webkit-appearance:none;-moz-appearance:none;outline:none}
+#contact_sub{background:transparent;border-width:1px;border-style:solid;border-color:black;width:150px;font-size:12px;height:40px;margin:auto;margin-top:50px;font-family:"kozuka-gothic-pr6n",sans-serif;font-style:normal;font-weight:300}
+#contact_sub:hover{background:black;color:white}
+.embedly-card{margin:auto}
