@@ -3,7 +3,7 @@
 }
 
 .lp-questa {
-    font-family: georgia, 'questa serif', serif;
+    font-family: 'questa serif', georgia, serif;
 }
 
 .lp-wrapper {
@@ -16,4 +16,61 @@
 
 .lp-mh-500 {
     min-height: 500px;
+}
+
+.lp-2B2929 {
+    color: #2B2929;
+}
+
+.lp-4A4A4A {
+    color: #4A4A4A;
+}
+
+.lp-CFCECE {
+    color: #CFCECE;
+}
+
+.lp-bg-CFCECE {
+    background-color: #CFCECE;
+}
+
+.lp-979797 {
+    color: #979797;
+}
+
+.lp-ba-979797 {
+    border: 1px solid #979797;
+}
+
+/* gold */
+.lp-B1A017 {
+    color: #B1A017;
+}
+
+.lp-ba-B1A017 {
+    border: 1px solid #B1A017;
+}
+
+.lp-bt-B1A017 {
+    border-top: 1px solid #B1A017;
+}
+
+.lp-bb-B1A017 {
+    border-bottom: 1px solid #B1A017;
+}
+
+.lp-bg-FFF9F4 {
+    background-color: #FFF9F4
+}
+
+.lp-9B9B9B {
+    color: #9B9B9B;
+}
+
+.lp-bg-E2F0ED {
+    background-color: #E2F0ED;
+}
+
+.lp-ba-E2D7C9 {
+    border: 1px solid #E2D7C9;
 }
